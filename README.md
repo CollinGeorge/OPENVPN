@@ -8,7 +8,7 @@ Open a terminal and navigate to the directory containing the script.
 Ensure that you have root privileges by running the script as root. Use the following command:
 
 <pre>
-sudo ./openvpn_setup.sh
+sudo bash openvpn_setup.sh
 </pre>
 
 Follow the prompts and provide the required information as requested by the script.
