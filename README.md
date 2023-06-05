@@ -8,7 +8,7 @@ Open a terminal and navigate to the directory containing the script.
 Ensure that you have root privileges by running the script as root. Use the following command:
 
 <pre>
-sudo bash openvpn_setup.sh
+sudo ./openvpn_setup.sh
 </pre>
 
 Follow the prompts and provide the required information as requested by the script.
@@ -18,6 +18,7 @@ Encryption and Security
 This script focuses on providing a secure setup for your OpenVPN server. Here are some key features related to encryption and security:
 
 **Encryption Algorithms**
+
 During the setup process, you will be prompted to select an encryption algorithm for securing the VPN connections. The available options include:
 
 AES-256-GCM
@@ -29,6 +30,7 @@ AES-128-CBC
 Choose an encryption algorithm that meets your security requirements.
 
 **Certificate Profiles**
+
 The script allows you to select a certificate profile that determines the level of security for your OpenVPN server. The available options include:
 
 Low: Basic security settings.
@@ -38,6 +40,7 @@ Custom: Allows you to enter a custom cipher suite for advanced security configur
 Select the appropriate certificate profile based on your security needs.
 
 **Firewall Rules**
+
 The script provides an option to enable firewall rules for additional network security. You can choose between two firewall profiles:
 
 Basic: Provides essential firewall rules allowing OpenVPN traffic and basic network services.
