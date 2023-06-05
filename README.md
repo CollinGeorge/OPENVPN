@@ -13,7 +13,9 @@ sudo bash openvpn_setup.sh
 
 Follow the prompts and provide the required information as requested by the script.
 Once the setup is complete, you will have an OpenVPN server running on your system.
-Encryption and Security
+
+
+**Encryption and Security**
 
 This script focuses on providing a secure setup for your OpenVPN server. Here are some key features related to encryption and security:
 
