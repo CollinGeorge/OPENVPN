@@ -1,5 +1,6 @@
 # OpenVPN Server Setup Script
 
+This script automates the setup process of an OpenVPN server on a Linux system. It installs the necessary packages, generates certificates, configures encryption settings, sets up the server, and enables firewall rules.
 
 **Usage**
 
